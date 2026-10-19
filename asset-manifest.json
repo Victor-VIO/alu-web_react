@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alu-web_react/static/css/main.7e7277e6.css",
+    "main.js": "/alu-web_react/static/js/main.90ec7f45.js",
+    "static/media/holberton-logo.jpg": "/alu-web_react/static/media/holberton-logo.5c67aad315a98848cd5a.jpg",
+    "index.html": "/alu-web_react/index.html",
+    "main.7e7277e6.css.map": "/alu-web_react/static/css/main.7e7277e6.css.map",
+    "main.90ec7f45.js.map": "/alu-web_react/static/js/main.90ec7f45.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e7277e6.css",
+    "static/js/main.90ec7f45.js"
+  ]
+}
