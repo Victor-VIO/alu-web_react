@@ -1,0 +1,25 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid #e1354b;
+}
+
+.App-header img {
+  width: 200px;
+  height: 200px;
+}
+
+.App-header h1 {
+  color: #e1354b;
+  margin-left: 20px;
+}
+
+#logoutSection {
+  padding: 0 40px;
+}
+
+#logoutSection .logoutLink {
+  color: #e1354b;
+  font-style: italic;
+  cursor: pointer;
+}
