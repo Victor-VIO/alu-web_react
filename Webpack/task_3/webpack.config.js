@@ -15,9 +15,8 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   devServer: {
-    static: path.resolve(__dirname, 'public'),
+    contentBase: './public',
     port: 8564,
-    open: true,
   },
   performance: {
     maxAssetSize: 1000000,
