@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', Arial, sans-serif;
+}
+
+.App-body {
+  min-height: 50vh;
+  padding: 40px;
+}
