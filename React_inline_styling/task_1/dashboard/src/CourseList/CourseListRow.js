@@ -3,17 +3,19 @@ import PropTypes from 'prop-types';
 
 const rowStyle = { backgroundColor: '#f5f5f5ab' };
 const headerRowStyle = { backgroundColor: '#deb5b545' };
+const cellStyle = { border: '1px solid #ccc', padding: '4px 8px', textAlign: 'left' };
+const fullWidthHeaderStyle = { ...cellStyle, textAlign: 'center' };
 
 function CourseListRow({ isHeader, textFirstCell, textSecondCell }) {
   if (isHeader) {
     return (
       <tr style={headerRowStyle}>
         {textSecondCell === null ? (
-          <th colSpan="2">{textFirstCell}</th>
+          <th colSpan="2" style={fullWidthHeaderStyle}>{textFirstCell}</th>
         ) : (
           <>
-            <th>{textFirstCell}</th>
-            <th>{textSecondCell}</th>
+            <th style={cellStyle}>{textFirstCell}</th>
+            <th style={cellStyle}>{textSecondCell}</th>
           </>
         )}
       </tr>
@@ -22,8 +24,8 @@ function CourseListRow({ isHeader, textFirstCell, textSecondCell }) {
 
   return (
     <tr style={rowStyle}>
-      <td>{textFirstCell}</td>
-      <td>{textSecondCell}</td>
+      <td style={cellStyle}>{textFirstCell}</td>
+      <td style={cellStyle}>{textSecondCell}</td>
     </tr>
   );
 }
