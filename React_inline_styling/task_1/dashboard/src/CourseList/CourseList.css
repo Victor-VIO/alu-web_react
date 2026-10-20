@@ -1,10 +1,10 @@
-#CourseList th,
-#CourseList td {
+th,
+td {
   border: 1px solid #ccc;
   padding: 4px 8px;
   text-align: left;
 }
 
-#CourseList thead tr:first-child th {
+th[colspan="2"] {
   text-align: center;
 }
